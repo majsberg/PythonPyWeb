@@ -34,7 +34,7 @@ if __name__ == "__main__":
 
     # Десериализация (Json объект (словарь) трансформируется в Модель и сохраняется в БД)
 
-    json_data = {'name': 'John', 'email': 'john@example.com'}
+    json_data = {'name': 'John2', 'email': 'john2@example.com'}
 
     serializer = AuthorSerializer(data=json_data)
     # Проверка валидности данных
